@@ -201,6 +201,9 @@ font-size: 40px;
 .review-title{
     margin: 20px;
 }
+.star-icon{
+    margin-left: 10px;
+}
 .box-container{
     display: flex;
     align-items: center;
