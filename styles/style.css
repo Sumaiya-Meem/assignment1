@@ -188,3 +188,29 @@ font-size: 40px;
     border: none;
    }
 .latest button{margin-left: 30px;}
+/* footer style */
+
+.footer{
+   background-color:black ;
+   color:#fff;
+   text-align: center;
+   margin-top: 30px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.footer-title{
+   margin-top: 70px;
+   margin-bottom: 20px;
+}
+.footer-para{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.637);
+    font-weight: 400;
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 30px;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
