@@ -11,29 +11,29 @@ header{
 }
 .banner{
     display: flex;
-  margin: 0px 240px;
+    margin: 0px 50px;
 }
 .btn{
     border-radius: 8px;
      background: #E55473;
-     padding: 20px 43px;
+     padding: 15px 20px;
      color:#fff;
      border: none;
      font-size: 17px;
      margin: 10px 0px;
 }
 .banner-pic{
-    width: 635px;
-    height: 800px;
+    width: 500px;
+    height: 550px;
     margin-top: 25px;
     margin-left: 80px;
 }
 .banner-info{
-    margin-top: 130px;
+    margin-top: 110px;
 }
 .banner-title{
 color: #272727;
-font-size: 50px;
+font-size: 40px;
 }
 .banner-desc{
 color: rgba(39, 39, 39, 0.60);
@@ -42,8 +42,9 @@ margin: 20px 0px;
 }
 /* feature style */
 .feature-container , .instagram-container{
+    background-color: #E55473;
     width:70%;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 50px;
     text-align: center;
 }
