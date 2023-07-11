@@ -25,11 +25,11 @@ header{
 .banner-pic{
     width: 500px;
     height: 550px;
-    margin-top: 25px;
+    margin-top: 60px;
     margin-left: 80px;
 }
 .banner-info{
-    margin-top: 110px;
+    margin-top: 140px;
 }
 .banner-title{
 color: #272727;
@@ -37,6 +37,7 @@ font-size: 40px;
 }
 .banner-desc{
 color: rgba(39, 39, 39, 0.60);
+width:300px;
 font-size: 18px;
 margin: 20px 0px;
 }
