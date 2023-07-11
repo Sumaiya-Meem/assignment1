@@ -42,8 +42,9 @@ margin: 20px 0px;
 }
 /* feature style */
 .feature-container , .instagram-container{
-    background-color: #E55473;
-    width:70%;
+    /* background-color: #E55473; */
+    width:80%;
+    height: 550px;
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
@@ -54,46 +55,64 @@ font-size: 40px;
 }
 .feature-para , .instagram-desc{
  color: rgba(39, 39, 39, 0.60);
- width: 594px;
+ width: 600px;
  font-size: 18px;
  margin: auto;
- margin-top: 40px;
+ margin-top: 20px;
 }
 .feature-images{
     display: flex;
-    gap:20px;
+    gap:10px;
     margin-top: 40px;
 }
+.feature-image{
+    /* background-color: #FFF; */
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
 .feature-img-box1{
-  border-radius: 50% 50% 0 0;
+    width: 295px;
+    height: 300px;
+    border-radius: 50% 50% 0 0;
    background: rgba(5, 151, 160, 0.15);
-   width: 460px;
-    height: 520px;
+   
 }
 .image1{
-    margin-top: 110px;
-    margin-left: 30px;
+    width: 130px;
+    height: 180px;
+    margin-top: 70px;
+    margin-left: 20px;
   
 }
 .feature-img-box2{
+    width: 295px;
+    height: 300px;
     border-radius: 50% 50% 0 0;
     background: rgba(71, 125, 17, 0.15);
-     width: 460px;
-      height: 520px;
+     /* width: 460px; */
+      /* height: 520px; */
   }
   .image2{
-    margin-top: 50px;
+    width: 220px;
+    height: 200px;
+    margin-top: 100px;
     margin-left: 20px;
   
 }
 .feature-img-box3{
+    width: 295px;
+    height: 300px;
+    margin: auto;
     border-radius: 50% 50% 0 0;
     background: rgba(167, 33, 98, 0.15);
-     width: 460px;
-      height: 520px;
+     /* width: 460px; */
+      /* height: 520px; */
   }
   .image3{
-    margin-top: 92px;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
     margin-left: 10px;
   
 }
@@ -108,6 +127,7 @@ font-size: 40px;
  display: flex;
  justify-content: space-around;
  align-items: center;
+ width: 100%;
  text-align: center;
 }
 .hot-deal-title{
