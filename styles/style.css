@@ -24,7 +24,7 @@ header{
 }
 .banner-pic{
     width: 500px;
-    height: 550px;
+    height: 490px;
     margin-top: 60px;
     margin-left: 130px;
 }
@@ -150,7 +150,7 @@ font-size: 40px;
 /* instagram style */
 .instagram-image{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     margin-top: 40px;
 }
 .insta-img{
@@ -181,13 +181,71 @@ font-size: 40px;
    }
 .latest input{
     margin-top: 60px;
-    width: 700px;
+    width: 650px;
     height: 64px;
     border-radius: 8px;
     background-color: #FFF;
     border: none;
    }
 .latest button{margin-left: 30px;}
+/* review style */
+.review{
+    background: rgba(221, 115, 138, 0.2);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin: auto;
+    
+}
+.review-title{
+    margin: 20px;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+}
+.box{
+    background-color: rgb(252, 249, 249);
+    /* width: 400px;
+    height: 245px; */
+}
+.box .rate{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.box .rate p{font-size: 22px;
+margin-right: 20px;}
+.box .user-desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.customer {display: flex;
+    gap: 30px;
+align-items: center;
+}
+.customer h4{
+    font-size: 18px;
+ padding: 7px;
+}
+.customer p{
+    color: rgba(27, 26, 26, 0.6);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.customer-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 35px;
+}
+
 /* footer style */
 
 .footer{
