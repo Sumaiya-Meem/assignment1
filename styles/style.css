@@ -24,7 +24,7 @@ header{
 }
 .banner-pic{
     width: 500px;
-    height: 490px;
+    height: 550px;
     margin-top: 60px;
     margin-left: 130px;
 }
@@ -194,11 +194,9 @@ font-size: 40px;
     background: rgba(221, 115, 138, 0.2);
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 30px;
-    width: 80%;
-    margin: auto;
     margin-bottom: 40px;
-    
+    width: 80%;
+    margin: auto;   
 }
 .review-title{
     margin: 20px;
@@ -211,6 +209,7 @@ font-size: 40px;
 }
 .box{
     background-color: rgb(252, 249, 249);
+    border-radius: 5px;
     /* width: 400px;
     height: 245px; */
 }
@@ -221,9 +220,9 @@ font-size: 40px;
     margin-left: 20px;
     padding: 10px;
 }
-.box .rate p{font-size: 22px;
+.box .rate .rate-info{font-size: 22px;
 margin-right: 20px;}
-.box .user-desc{
+.box .rate .user-desc{
     color: rgba(39, 39, 39, 0.60);
     font-size: 14px;
     text-align: center;
